@@ -1,0 +1,36 @@
+loop differ
+    sbox?
+    key scheudle
+    entropy?
+    xor / feistel network?
+    
+    behavior
+        type of loop
+        writes / reads (read/write patterns, 1024 x 1 bit? (rsa))
+            size / bitlength -> algo
+            buffers -> parameters
+    
+    (xor iteration differ) (or bruteforce using verfier)
+    bit length: read of y bits -> 160 bits (ripemd160)
+    same length of input/output => encryption/decryption?
+    loop similiarity: macro structures / feistel network / sp netz
+
+Verify by Refererence Implementation
+    relations between round computation (coldboot) (loopdiffer)
+    rsa
+    md5/6
+
+Markieren von Code, um Ergebnisse der verschiedene Erkennungs-Methoden
+zusammenzuführen
+    tag instructions / rtn / bbl?
+    => über time/trace plot?
+
+testing + evaluation:
+    False-Positives Traces erstellen um Performance zu evaluieren
+    packer, protecters, malware
+        pin: speed?
+        thorstens samples
+    skype evaluation
+    firefox evaluation
+    Mehr XOR Samples, mehr Compiler dazu (MinGW/LCC?)?
+    signaturen hand optimieren?
