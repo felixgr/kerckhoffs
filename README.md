@@ -15,6 +15,9 @@ algorithms and their parameters. Using the results of this work, encrypted data,
 by a program for example, may be decrypted and used by an analyst to gain further
 insight on the behavior of the analyzed binary executable.
 
+![Auguste Kerckhoffs](http://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Kerkhoffs.jpg/220px-Kerkhoffs.jpg "Sup?")
+
+
 Keywords: Code Analysis, Dynamic Binary Analysis, Instrumentation, Code Heuristics, Code Signatures, Applied Cryptography
 
 
@@ -31,14 +34,15 @@ Author = {Felix Gr{\"o}bert},
 Title = {{Automatic Identification of Cryptographic Primitives in Software}},
 School = {Ruhr-University Bochum, Germany},
 Type = {Diplomarbeit},
-Year = {2010}}
+Year = {2010}
+}
 
 @incollection{grobert2011automated,
-  title={Automated identification of cryptographic primitives in binary programs},
-  author={Gr{\"o}bert, Felix and Willems, Carsten and Holz, Thorsten},
-  booktitle={Recent Advances in Intrusion Detection},
-  pages={41--60},
-  year={2011},
-  publisher={Springer}
+title={Automated Identification of Cryptographic Primitives in Binary Programs},
+author={Gr{\"o}bert, Felix and Willems, Carsten and Holz, Thorsten},
+booktitle={Recent Advances in Intrusion Detection},
+pages={41--60},
+year={2011},
+publisher={Springer}
 }
 ```
